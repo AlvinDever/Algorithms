@@ -12,6 +12,9 @@ namespace Algorithms.Algorithm
 
             for(int i=1; i<data.Length;i++)
             {
+                // set newValue equal to the second element in the array
+                // we don't start at the first element because it has no preceding value
+                // which means we can't move it any further forward in the array
                 newValue = data[i];
 
                 int j = i;
