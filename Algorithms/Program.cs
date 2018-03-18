@@ -16,10 +16,14 @@ namespace Algorithms
             }
             Console.WriteLine();
             Console.WriteLine();
-            PrintData(BubbleSort.SortDesc(inputData), "Bubble Desc");
-            Console.WriteLine();
-            PrintData(BubbleSort.SortAsc(inputData), "Insert Asc");
-            Console.WriteLine();
+
+            //PrintData(BubbleSort.SortDesc(inputData), "Bubble Desc");
+            //Console.WriteLine();
+            //PrintData(InsertionSort.SortAcs(inputData), "Insert Asc");
+            //Console.WriteLine();
+
+            SelectionSort.SortAsc(inputData);
+            
         }
 
         public static void PrintData(double[] data, string sortMethod)

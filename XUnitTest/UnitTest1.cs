@@ -20,5 +20,11 @@ namespace XUnitTestProject1
         {
             Assert.Equal<double[]>(outputData, InsertionSort.SortAcs(inputData));
         }
+
+        [Fact]
+        public void TestSelectionSort()
+        {
+            Assert.Equal<double[]>(outputData, SelectionSort.SortAsc(inputData));
+        }
     }
 }
