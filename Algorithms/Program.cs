@@ -17,12 +17,12 @@ namespace Algorithms
             Console.WriteLine();
             Console.WriteLine();
 
-            //PrintData(BubbleSort.SortDesc(inputData), "Bubble Desc");
+            PrintData(BubbleSort.SortDefault(inputData), "Bubble Default");
             //Console.WriteLine();
             //PrintData(InsertionSort.SortAcs(inputData), "Insert Asc");
             //Console.WriteLine();
 
-            SelectionSort.SortAsc(inputData);
+            //SelectionSort.SortAsc(inputData);
             
         }
 

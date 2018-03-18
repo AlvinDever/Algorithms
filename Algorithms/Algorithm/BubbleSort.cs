@@ -6,6 +6,27 @@ namespace Algorithms.Algorithm
 {
     public static class BubbleSort
     {
+        public static double[] SortDefault(double[] data)
+        {
+            bool swapped;
+            do
+            {
+                swapped = false;
+                for (int i = 0; i < data.Length - 1; i++)
+                {
+                    if (data[i] > data[i + 1])
+                    {
+                        double temp = data[i + 1];
+                        data[i + 1] = data[i];
+                        data[i] = temp;
+                        swapped = true;
+                    }
+                }
+            }
+            while (swapped);
+            return data;
+        }
+
         public static double[] SortDesc(double[] data)
         {
             double temp;
