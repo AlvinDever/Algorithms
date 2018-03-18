@@ -4,7 +4,7 @@ using Algorithms.Algorithm;
 
 namespace XUnitTestProject1
 {
-    public class UnitTest1
+    public class UnitTest
     {
         double[] inputData = new double[] { 7, 3, 8, 1, 4, 2, 11, 16, 12 };
         double[] outputData = new double[] { 1, 2, 3, 4, 7, 8, 11, 12, 16 };
